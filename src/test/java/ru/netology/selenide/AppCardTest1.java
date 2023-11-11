@@ -32,5 +32,6 @@ public class AppCardTest1 {
                 .shouldHave(Condition.exactText("Встреча успешно забронирована на " + planningDate));
 
     }
+
 }
 
