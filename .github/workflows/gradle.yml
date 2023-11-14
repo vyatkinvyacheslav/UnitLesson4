@@ -19,5 +19,5 @@ jobs:
       - name: Start SUT
         run: java -jar ./artifacts/app-card-delivery.jar & # Имя файла SUT будет отличаться в каждой задаче
       - name: Build with Gradle
-        run: ./gradlew test --info  
+        run: ./gradlew test -Dselenide.headless=true --info  
       
